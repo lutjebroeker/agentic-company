@@ -46,9 +46,9 @@ Remaining (Fase 0 open items):
 **Plans**: 3 plans
 
 Plans:
-- [ ] 02-01: Telegram always-on listener (n8n workflow)
-- [ ] 02-02: Slack workspace + agent router (n8n workflow, 5 kanalen)
-- [ ] 02-03: Proactieve workflows (content briefing + engagement scan + /learn synthesize)
+- [ ] 02-01-PLAN.md — Telegram always-on listener (n8n workflow, NLP routing, SSH bridge)
+- [ ] 02-02-PLAN.md — Slack workspace + agent router (5 kanalen, kanaal=skill, thread replies)
+- [ ] 02-03-PLAN.md — Proactieve workflows (content briefing + DM-suggesties + /learn synthesize)
 
 ---
 

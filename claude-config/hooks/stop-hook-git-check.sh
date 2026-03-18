@@ -4,7 +4,12 @@
 input=$(cat)
 
 # Check if stop hook is already active (recursion prevention)
-stop_hook_active=$(echo "$input" | jq -r '.stop_hook_active')
+if command -v jq >/dev/null 2>&1; then
+  stop_hook_active=$(echo "$input" | jq -r '.stop_hook_active')
+else
+  stop_hook_active=$(echo "$input" | grep -o '"stop_hook_active":true' | grep -c 'true' || echo "false")
+  [[ "$stop_hook_active" = "1" ]] && stop_hook_active="true"
+fi
 if [[ "$stop_hook_active" = "true" ]]; then
   exit 0
 fi

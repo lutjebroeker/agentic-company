@@ -8,6 +8,21 @@
                     {
                         "type": "command",
                         "command": "~/.claude/stop-hook-git-check.sh"
+                    },
+                    {
+                        "type": "command",
+                        "command": "~/.claude/post-session.sh"
+                    }
+                ]
+            }
+        ],
+        "Notification": [
+            {
+                "matcher": "/ship",
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "~/.claude/notification.sh"
                     }
                 ]
             }

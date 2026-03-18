@@ -20,6 +20,11 @@ agentic-company is mijn persoonlijke AI-infrastructuur. Het combineert externe k
 - `/ceo` — Hormozi strategie, bottleneck-denken, één actie per sessie
 - `/marketing` — Priestley + Trust Formula content, altijd Nederlands
 - `/ops` — n8n workflow generator, VPS setup, technische orkestratie
+- `/sales` — DRIFT/MEET outreach, temperatuurladder, pipeline beheer
+- `/review` — adversariële kwaliteitscheck, Trust Formula + Hormozi scoring
+- `/personal` — 12WY accountability, MEET-cyclus, executie-percentages
+- `/learn` — log wins/fails, synthesize patronen, absorb externe bronnen
+- `/ship` — publiceren + deployen via Ziplined/n8n MCP
 
 ## Gedragsregels
 1. Check `registry.md` als je twijfelt welk tool of pattern te gebruiken

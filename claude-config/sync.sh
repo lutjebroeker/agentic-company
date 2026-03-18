@@ -30,6 +30,8 @@ err()  { echo -e "${RED}✗${NC} $1"; }
 declare -A FILES=(
     ["settings.json"]="settings.json"
     ["hooks/stop-hook-git-check.sh"]="stop-hook-git-check.sh"
+    ["hooks/post-session.sh"]="post-session.sh"
+    ["hooks/notification.sh"]="notification.sh"
     ["skills/session-start-hook/SKILL.md"]="skills/session-start-hook/SKILL.md"
 )
 

@@ -27,6 +27,11 @@ Na sync zijn de commands direct beschikbaar als slash commands.
 | `/ceo` | Strategisch advies via Hormozi Value Equation | `/ceo Moet ik focussen op content of VPS template?` |
 | `/marketing` | LinkedIn post schrijven (Priestley + Trust Formula) | `/marketing Schrijf een post over het execution gap` |
 | `/ops` | n8n workflows bouwen, VPS setup scripts | `/ops Maak een webhook-naar-Telegram workflow` |
+| `/sales` | DRIFT/MEET outreach, pipeline beheer | `/sales Schrijf een warm DM voor [naam]` |
+| `/review` | Adversariële kwaliteitscheck | `/review [plak content of beschrijf offer]` |
+| `/personal` | 12WY accountability, MEET-cyclus | `/personal Weekreview executie-percentages` |
+| `/learn` | Kennis loggen en patronen analyseren | `/learn log win marketing "News post 2x engagement"` |
+| `/ship` | Publiceren en deployen | `/ship LinkedIn post over execution gap` |
 
 ## Repo structuur
 
@@ -46,7 +51,10 @@ agentic-company/
 │   ├── offer-stack.md        # Gold/Silver/Bronze producten
 │   └── pipeline.md           # Outreach pipeline
 ├── patterns/                 # Content templates
-│   └── content/              # LinkedIn pain/prize/news formats
+│   ├── content/              # LinkedIn pain/prize/news formats
+│   └── external/             # Cherry-picked Fabric patterns
+├── products/                 # Verkoopbare producten
+│   └── vps-template/         # Hetzner VPS setup script + docs
 └── learning/                 # Zelflerend geheugen
     ├── wins.md               # Wat werkte
     ├── fails.md              # Wat niet werkte
@@ -79,6 +87,9 @@ Nieuwe commands toevoegen: drop een `.md` in `claude-config/commands/` en run `.
 
 - [x] Phase 0: Foundation (CLAUDE.md, registry, memory, learning)
 - [x] Phase 1: Core commands (/ceo, /marketing, /ops) + content patterns
-- [ ] Phase 2: /learn command, post-session hook, Open Brain, /personal
-- [ ] Phase 3: /sales, /review, /ship, Fabric patterns
-- [ ] Phase 4: VPS template product, klant-documentatie
+- [x] Phase 2: /learn, /personal, post-session hook, notification hook
+- [x] Phase 3: /sales, /review, /ship, Fabric patterns
+- [x] Phase 4: VPS template product + klant-documentatie
+- [ ] Open Brain (Supabase + pgvector) — vereist Supabase setup
+- [ ] Telegram notificaties — vereist TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID
+- [ ] Beta testing + case study — vereist eerste klant

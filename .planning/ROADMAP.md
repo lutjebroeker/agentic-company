@@ -46,7 +46,7 @@ Remaining (Fase 0 open items):
 **Plans**: 3 plans
 
 Plans:
-- [ ] 02-01-PLAN.md — Telegram always-on listener (n8n workflow, NLP routing, SSH bridge)
+- [x] 02-01-PLAN.md — Telegram always-on listener (n8n workflow UVTUSH8NmMun11hY actief, wacht op human-verify)
 - [ ] 02-02-PLAN.md — Slack workspace + agent router (5 kanalen, kanaal=skill, thread replies)
 - [ ] 02-03-PLAN.md — Proactieve workflows (content briefing + DM-suggesties + /learn synthesize)
 
@@ -112,7 +112,7 @@ Plans:
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 4/6 | Partial (brownfield) | 2026-03-18 |
-| 2. Core Skills Live | 0/3 | Not started | - |
+| 2. Core Skills Live | 1/3 | In progress | - |
 | 3. Memory & Intelligence | 0/4 | Not started | - |
 | 4. Eerste Klant | 0/3 | Not started | - |
 | 5. Distributie & IP | 0/3 | Not started | - |
